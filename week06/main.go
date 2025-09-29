@@ -2,11 +2,18 @@ package main
 
 import (
 	"fmt"
-	"math"
-	"strings"
+	"reflect"
 )
 
 func main() {
-	fmt.Println(math.Round(2.71))
-	fmt.Println(strings.Title("jeon hong jun"))
+	//var name string
+	// name = "Jeon Hongjun"
+
+	//var name = "Jeon Hongjun"
+
+	//name := "Jeon Hongjun"
+
+	name := 2.71
+
+	fmt.Println(name, reflect.TypeOf(name))
 }
